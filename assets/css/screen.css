@@ -7,20 +7,29 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
-
-html {
-  font-family: sans-serif;
-  font-weight: normal;
-  background: #222;
-  color: #EEE;
-  padding: 1.125em;
+@media screen and (mid-width 26.25em) {
+  html {
+    font-family: sans-serif;
+    font-weight: normal;
+    background: #222;
+    color: #EEE;
+    padding: 1.125em;
+  }
+  body {
+    font-family: sans-serif;
+    font-size: 1.125em;
+    line-height: 1.3125em;
+    max-width: 35em;
+    margin: auto;
+  }
+  figure.portrait {
+    width: 50%;
+  }
 }
-body {
-  font-family: sans-serif;
-  font-size: 1.125em;
-  line-height: 1.3125em;
-  max-width: 35em;
-  margin: auto;
+@media screen and (mid-width: 23.0625em) {
+  figure.landscape {
+    width: 50%;
+  }
 }
 h1 {
   font-size: 4.3125em;
