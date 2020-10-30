@@ -79,6 +79,16 @@ list-style-type: none;
 .res a:hover {
   background: #AFEEEE;
 }
+@media screen and (mid-width 26.25em) {
+  figure.portrait{
+    width: 50%;
+  }
+}
+@media screen and (mid-width: 23.06em) {
+  figure.landscape{
+    width: 50%;
+  }
+}
 /* Responsive Images */
 img {
   display: block;
