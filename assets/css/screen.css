@@ -58,9 +58,12 @@ footer {
 .nav a {
   display: block;
   text-decoration: none;
-  background: #FFFFFF;
-  color: #222;
+  border: 0.250em;
+  width: 10.25em;
+  background: #808080;
+  color: #FFFFFF;
   padding: 0.75em;
+  border-radius: 0.750em;
 }
 .nav a:hover {
   background: #A9A9A9;
@@ -72,7 +75,7 @@ list-style-type: none;
 }
 .res a {
   border: 0.250em solid #FFFFFF;
-  flex: 12em
+  flex: 12em;
   width: 10.5em;
   color: #FFFFFF;
   padding: 1em;
