@@ -21,7 +21,7 @@ body {
   margin: auto;
 }
 h1 {
-  font-size: 4em;
+  font-size: 2em;
   line-height: 0.9em;
   margin-top: 1em;
   margin-bottom: 0.75em;
@@ -63,7 +63,7 @@ footer {
   padding: 0.75em;
 }
 .nav a:hover {
-  background: #AFEEEE;
+  background: #808080;
 }
 .res {
 display: flex;
@@ -88,6 +88,11 @@ list-style-type: none;
 @media screen and (mid-width: 23.06em) {
   figure.landscape{
     width: 50%;
+  }
+}
+@media screen and (min-width: 20.625em) {
+  h1 {
+    font-size: 4em;
   }
 }
 /* Responsive Images */
