@@ -71,14 +71,12 @@ flex-wrap: wrap;
 list-style-type: none;
 }
 .res a {
-  flex: 12em;
-  text-decoration: none;
-  background: #FFFFFF;
-  color: #222;
-  padding: 0.75em;
-}
-.res a:hover {
-  background: #A9A9A9;
+  border: 0.250em solid #FFFFFF;
+  flex: 12em
+  width: 10.5em;
+  color: #FFFFFF;
+  padding: 1em;
+  border-radius: 0.750em;
 }
 @media screen and (mid-width 26.25em) {
   figure.portrait{
