@@ -63,7 +63,7 @@ footer {
   padding: 0.75em;
 }
 .nav a:hover {
-  background: #808080;
+  background: #A9A9A9;
 }
 .res {
 display: flex;
@@ -78,7 +78,7 @@ list-style-type: none;
   padding: 0.75em;
 }
 .res a:hover {
-  background: #AFEEEE;
+  background: #A9A9A9;
 }
 @media screen and (mid-width 26.25em) {
   figure.portrait{
